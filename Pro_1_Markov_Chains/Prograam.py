@@ -110,7 +110,7 @@ axes[0].set_ylabel("Total reward")
 axes[0].legend()
 axes[0].grid(True)
 
-# Right: rolling average (window=200)
+# Right: rolling average
 window = 200
 per_round_static   = [static_history[i] - (static_history[i-1] if i > 0 else 0)   for i in range(10000)]
 per_round_learning = [learning_history[i] - (learning_history[i-1] if i > 0 else 0) for i in range(10000)]
@@ -128,10 +128,3 @@ axes[1].grid(True)
 
 plt.tight_layout()
 plt.show()
-
-"""
-During the first ~200 games the cumulative rewards stay close to zero, 
-as the learning agent has not yet adapted to the static agent's patterns.
-And after that the learning agent  steadily gains advantage while static is unable to adapt and loses.
-
-"""
