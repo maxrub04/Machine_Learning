@@ -85,6 +85,23 @@ class OneVsOne:
     def eval(self, x_test: np.ndarray) -> np.ndarray:
         return np.array([self.predict(x) for x in x_test])
 
+class OneVsRest:
+    def __init__(self, input_dim: int, num_classes: int):
+        self.models = [Perceptron(size=input_dim) for _ in range(num_classes)]
+
+    def train(self, x_train: np.ndarray, y_train: np.ndarray):
+        for i, model in enumerate(self.models):
+            binary_y = (y_train == i).astype(int)
+            model.train(x_train, binary_y)
+
+    def predict(self, x: np.ndarray) -> int:
+        scores = [model._forward(x) for model in self.models]
+        return np.argmax(scores)
+
+    def eval(self, x_test: np.ndarray) -> np.ndarray:
+        return np.array([self.predict(x) for x in x_test])
+
+
 
 class LogisticRegression:
     def __init__(self, input_dim, num_classes):
@@ -128,31 +145,45 @@ class LogisticRegression:
 num_classes = len(np.unique(y_train))
 input_dim = x_train.shape[1]
 
+# One-vs-One
 ovo_classifier = OneVsOne(input_dim=input_dim, num_classes=num_classes)
 ovo_classifier.train(x_train, y_train)
-
 y_pred_ovo = ovo_classifier.eval(x_test)
 accuracy_ovo = np.mean(y_pred_ovo == y_test)
 print(f"One-vs-One Accuracy: {accuracy_ovo:.2f}")
 
+# One-vs-Rest
+ovr_classifier = OneVsRest(input_dim=input_dim, num_classes=num_classes)
+ovr_classifier.train(x_train, y_train)
+y_pred_ovr = ovr_classifier.eval(x_test)
+accuracy_ovr = np.mean(y_pred_ovr == y_test)
+print(f"One-vs-Rest Accuracy: {accuracy_ovr:.2f}")
+
+# Logistic Regression
 logreg = LogisticRegression(input_dim=input_dim, num_classes=num_classes)
 logreg.train(x_train, y_train, epochs=100)
-
 y_pred_logreg = logreg.eval(x_test)
 accuracy_logreg = np.mean(y_pred_logreg == y_test)
 print(f"Logistic Regression Accuracy: {accuracy_logreg:.2f}")
 
-_, ax = plt.subplots(1, 2, figsize=(12, 6))
 
+_, ax = plt.subplots(1, 3, figsize=(18, 6))
+
+# One-vs-One Results
 ax[0].set_title(f"One-vs-One Accuracy: {accuracy_ovo:.2f}")
 for i in np.unique(y_test):
     ax[0].scatter(x_test[y_test == i, 0], x_test[y_test == i, 1], label=f'Class {i}')
 ax[0].legend()
 
-ax[1].set_title(f"Logistic Regression Accuracy: {accuracy_logreg:.2f}")
+ax[1].set_title(f"One-vs-Rest Accuracy: {accuracy_ovr:.2f}")
 for i in np.unique(y_test):
     ax[1].scatter(x_test[y_test == i, 0], x_test[y_test == i, 1], label=f'Class {i}')
 ax[1].legend()
+
+ax[2].set_title(f"Logistic Regression Accuracy: {accuracy_logreg:.2f}")
+for i in np.unique(y_test):
+    ax[2].scatter(x_test[y_test == i, 0], x_test[y_test == i, 1], label=f'Class {i}')
+ax[2].legend()
 
 plt.tight_layout()
 plt.show()
