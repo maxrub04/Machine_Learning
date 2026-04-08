@@ -47,8 +47,8 @@ class Perceptron:
     def train(self, x_train: np.ndarray, y_train: np.ndarray):
         for _ in range(self.epochs):
             for x, y in zip(x_train, y_train):
-                prediction = self._forward(x)
-                error = y - prediction
+                y_pred = self._forward(x)
+                error = y - y_pred
                 self._backward(x, error)
 
     def eval(self, x_test: np.ndarray) -> List[int]:
@@ -100,8 +100,6 @@ class OneVsRest:
 
     def eval(self, x_test: np.ndarray) -> np.ndarray:
         return np.array([self.predict(x) for x in x_test])
-
-
 
 class LogisticRegression:
     def __init__(self, input_dim, num_classes):
