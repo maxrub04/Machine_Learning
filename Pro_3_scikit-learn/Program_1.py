@@ -20,7 +20,6 @@ voting = VotingClassifier(estimators=[
     ('rf', rf)
 ])
 
-
 for model in [log_reg, svm, rf, voting]:
     model.fit(X_train,y_train)
 
