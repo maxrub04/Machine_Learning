@@ -1,7 +1,3 @@
-import os
-
-os.environ.setdefault("TF_CPP_MIN_LOG_LEVEL", "2")
-
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error, r2_score
