@@ -42,12 +42,11 @@ def build_model(hidden1, hidden2, lr):
 for cfg in DATASETS:
     XX = cfg['file']
 
-    # Data read
     with open(f"./dane{XX}.txt", "r") as file:
         data = file.readlines()
     x_data, y_data = zip(*[map(float, line.split()) for line in data])
 
-    # Data normalization and split (train / val / test)
+    # Data normalization and split
     scaler_x = MinMaxScaler()
     scaler_y = MinMaxScaler()
     X_data_normalized = scaler_x.fit_transform(np.array(x_data).reshape(-1, 1))
@@ -57,7 +56,7 @@ for cfg in DATASETS:
     X_train, X_val, y_train, y_val = train_test_split(
         X_train, y_train, test_size=0.2, random_state=42)
 
-    # Build, train (re-seed before build so each network starts from a known state)
+    # Build, train
     tf.keras.utils.set_random_seed(cfg['seed'])
     model = build_model(cfg['hidden1'], cfg['hidden2'], cfg['lr'])
     n_params = model.count_params()
@@ -84,7 +83,6 @@ for cfg in DATASETS:
           f"| train MSE={final_loss:.4f} | val MSE={final_val_loss:.4f} "
           f"| test MSE={test_mse:.4f} | test R^2={test_r2:.3f}")
 
-    # Charts
     plt.rcParams.update({'font.size': 14})
     plt.figure(figsize=(15, 10))
 
