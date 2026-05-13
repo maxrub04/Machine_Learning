@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54e5e29e-4c32-4279-b849-817e84837f34" name="Changes" comment="pro 4 part 2 final">
+      <change afterPath="$PROJECT_DIR$/.idea/MIW.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_03_2026,_12_38_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_03_2026,_12_38_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_03_2026__12_38__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pro_4_NN/reports/DataSet_10_20260428_214742_neu_4_epch_4101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pro_4_NN/reports/DataSet_12_20260428_214742_neu_14_epch_3818.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pro_4_NN/reports/DataSet_14_20260428_214742_neu_20_epch_21122.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pro_4_NN/reports/DataSet_1_20260428_214742_neu_10_epch_1827.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pro_4_NN/reports/DataSet_2_20260428_214742_neu_12_epch_19564.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pro_4_NN/reports/DataSet_3_20260428_214742_neu_15_epch_31142.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pro_4_NN/reports/DataSet_6_20260428_214742_neu_25_epch_31691.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pro_4_NN/reports/DataSet_8_20260428_214742_neu_12_epch_2724.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;maxrub04&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/maxrub04/Machine_Learning.git&quot;,
+    &quot;accountId&quot;: &quot;acca1102-57ab-4e63-ab1b-e867ddaed8d1&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3AqJM3YwqJRYLtkATp9r2Y7jX2B" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Prograam.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Program_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Program_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.program_part1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.program_part2_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.program_part2_2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/maxxxxx/PycharmProjects/MIW/Pro_4_NN&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;xml.defaultSchemas&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Pro_4_NN" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Pro_4_NN" />
+      <recent name="$PROJECT_DIR$/Pro_4_NN/reports" />
+      <recent name="$PROJECT_DIR$/Pro_3_scikit-learn" />
+      <recent name="$PROJECT_DIR$/Pro_2_Classification" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Prograam" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="MIW" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pro_1_Markov_Chains" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pro_1_Markov_Chains/Prograam.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
+        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54e5e29e-4c32-4279-b849-817e84837f34" name="Changes" comment="" />
+      <created>1773314116014</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773314116014</updated>
+      <workItem from="1773314117118" duration="837000" />
+      <workItem from="1773314959130" duration="3275000" />
+      <workItem from="1773318544234" duration="1654000" />
+      <workItem from="1773485940030" duration="2511000" />
+      <workItem from="1773488476708" duration="372000" />
+      <workItem from="1773761165570" duration="39000" />
+      <workItem from="1773761244538" duration="54000" />
+      <workItem from="1773911656647" duration="1554000" />
+      <workItem from="1773926672038" duration="44000" />
+      <workItem from="1774262578615" duration="117000" />
+      <workItem from="1774336825175" duration="3000" />
+      <workItem from="1774447115813" duration="598000" />
+      <workItem from="1774527932286" duration="631000" />
+      <workItem from="1774615180986" duration="1533000" />
+      <workItem from="1774619443028" duration="18000" />
+      <workItem from="1774708417591" duration="6000" />
+      <workItem from="1774708876326" duration="2768000" />
+      <workItem from="1775635330022" duration="2269000" />
+      <workItem from="1775809938730" duration="3000" />
+      <workItem from="1776780149549" duration="873000" />
+      <workItem from="1777109825435" duration="4000" />
+      <workItem from="1777401445231" duration="3347000" />
+      <workItem from="1777470229559" duration="828000" />
+      <workItem from="1777630817725" duration="3663000" />
+      <workItem from="1777976477306" duration="15000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1773316892473</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773316892473</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first_program_final">
+      <option name="closed" value="true" />
+      <created>1773488295660</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773488295660</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init 2 project">
+      <option name="closed" value="true" />
+      <created>1773911748504</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773911748504</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update from lab">
+      <option name="closed" value="true" />
+      <created>1774528076049</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774528076049</updated>
+    </task>
+    <task id="LOCAL-00005" summary="progrma 2 final">
+      <option name="closed" value="true" />
+      <created>1774615942589</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774615942589</updated>
+    </task>
+    <task id="LOCAL-00006" summary="progrma 2 final">
+      <option name="closed" value="true" />
+      <created>1774616119673</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774616119673</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Project 3 init">
+      <option name="closed" value="true" />
+      <created>1775635406596</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1775635406596</updated>
+    </task>
+    <task id="LOCAL-00008" summary="program 1 fina;">
+      <option name="closed" value="true" />
+      <created>1775636580470</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1775636580470</updated>
+    </task>
+    <task id="LOCAL-00009" summary="program 1 final">
+      <option name="closed" value="true" />
+      <created>1775636598495</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1775636598495</updated>
+    </task>
+    <task id="LOCAL-00010" summary="data">
+      <option name="closed" value="true" />
+      <created>1775636704268</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1775636704268</updated>
+    </task>
+    <task id="LOCAL-00011" summary="program 2 final">
+      <option name="closed" value="true" />
+      <created>1775637398837</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1775637398837</updated>
+    </task>
+    <task id="LOCAL-00012" summary="program 3 final">
+      <option name="closed" value="true" />
+      <created>1777470980833</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1777470980833</updated>
+    </task>
+    <task id="LOCAL-00013" summary="program 3 final">
+      <option name="closed" value="true" />
+      <created>1777471034829</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1777471034829</updated>
+    </task>
+    <task id="LOCAL-00014" summary="pro 4 part 2 final">
+      <option name="closed" value="true" />
+      <created>1777637677171</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1777637677171</updated>
+    </task>
+    <task id="LOCAL-00015" summary="pro 4 part 2 final">
+      <option name="closed" value="true" />
+      <created>1777637982374</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1777637982374</updated>
+    </task>
+    <task id="LOCAL-00016" summary="pro 4 part 2 final">
+      <option name="closed" value="true" />
+      <created>1777638055369</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1777638055369</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="first_program_final" />
+    <MESSAGE value="init 2 project" />
+    <MESSAGE value="update from lab" />
+    <MESSAGE value="progrma 2 final" />
+    <MESSAGE value="Project 3 init" />
+    <MESSAGE value="program 1 fina;" />
+    <MESSAGE value="program 1 final" />
+    <MESSAGE value="data" />
+    <MESSAGE value="program 2 final" />
+    <MESSAGE value="program 3 final" />
+    <MESSAGE value="pro 4 part 2 final" />
+    <option name="LAST_COMMIT_MESSAGE" value="pro 4 part 2 final" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pro_4_NN/program_part1.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MIW$Prograam.coverage" NAME="Prograam Coverage Results" MODIFIED="1775636031223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pro_1_Markov_Chains" />
+    <SUITE FILE_PATH="coverage/MIW$Program_2.coverage" NAME="Program_2 Coverage Results" MODIFIED="1775637442601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pro_3_scikit-learn" />
+    <SUITE FILE_PATH="coverage/MIW$program_part2_2.coverage" NAME="program_part2_2 Coverage Results" MODIFIED="1777637952179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pro_4_NN" />
+    <SUITE FILE_PATH="coverage/MIW$Program_1.coverage" NAME="Program_1 Coverage Results" MODIFIED="1775636396171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pro_3_scikit-learn" />
+    <SUITE FILE_PATH="coverage/MIW$program_part1.coverage" NAME="program_part1 Coverage Results" MODIFIED="1777470533244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pro_4_NN" />
+    <SUITE FILE_PATH="coverage/MIW$program_part2_1.coverage" NAME="program_part2_1 Coverage Results" MODIFIED="1777637882228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pro_4_NN" />
+    <SUITE FILE_PATH="coverage/MIW$Program.coverage" NAME="Program Coverage Results" MODIFIED="1774710493495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pro_2_Classification" />
+  </component>
+</project>
