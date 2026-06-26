@@ -5,24 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54e5e29e-4c32-4279-b849-817e84837f34" name="Changes" comment="pro 4 part 2 final">
-      <change afterPath="$PROJECT_DIR$/.idea/MIW.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_03_2026,_12_38_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_03_2026,_12_38_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_03_2026__12_38__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pro_4_NN/reports/DataSet_10_20260428_214742_neu_4_epch_4101.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pro_4_NN/reports/DataSet_12_20260428_214742_neu_14_epch_3818.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pro_4_NN/reports/DataSet_14_20260428_214742_neu_20_epch_21122.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pro_4_NN/reports/DataSet_1_20260428_214742_neu_10_epch_1827.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pro_4_NN/reports/DataSet_2_20260428_214742_neu_12_epch_19564.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pro_4_NN/reports/DataSet_3_20260428_214742_neu_15_epch_31142.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pro_4_NN/reports/DataSet_6_20260428_214742_neu_25_epch_31691.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pro_4_NN/reports/DataSet_8_20260428_214742_neu_12_epch_2724.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pro_5_keras/MIWproject5.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pro_5_keras/solution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pro_6/MIWproject6.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pro_6/stock_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pro_Final/MIWprojectPuszkaPandory.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pro_Final/s31880MIWFINAL.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pro_Final/s31880MIWFinalReport (1).pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +59,11 @@
     &quot;Python.program_part1.executor&quot;: &quot;Run&quot;,
     &quot;Python.program_part2_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.program_part2_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.solution.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/maxxxxx/PycharmProjects/MIW/Pro_4_NN&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/maxxxxx/PycharmProjects/MIW/Pro_Final&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -84,14 +75,16 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Pro_Final" />
+      <recent name="$PROJECT_DIR$/Pro_6" />
       <recent name="$PROJECT_DIR$/Pro_4_NN" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Pro_Final" />
+      <recent name="$PROJECT_DIR$/Pro_6" />
+      <recent name="$PROJECT_DIR$/Pro_5_keras" />
       <recent name="$PROJECT_DIR$/Pro_4_NN" />
       <recent name="$PROJECT_DIR$/Pro_4_NN/reports" />
-      <recent name="$PROJECT_DIR$/Pro_3_scikit-learn" />
-      <recent name="$PROJECT_DIR$/Pro_2_Classification" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -159,6 +152,20 @@
       <workItem from="1777470229559" duration="828000" />
       <workItem from="1777630817725" duration="3663000" />
       <workItem from="1777976477306" duration="15000" />
+      <workItem from="1778700933106" duration="4238000" />
+      <workItem from="1778746811560" duration="5000" />
+      <workItem from="1778747342682" duration="4141000" />
+      <workItem from="1778841728983" duration="4000" />
+      <workItem from="1781110265791" duration="9793000" />
+      <workItem from="1781461410249" duration="1644000" />
+      <workItem from="1781463514035" duration="1051000" />
+      <workItem from="1781595785251" duration="5811000" />
+      <workItem from="1781680919280" duration="2813000" />
+      <workItem from="1781695010597" duration="5026000" />
+      <workItem from="1781721970317" duration="646000" />
+      <workItem from="1781762384833" duration="916000" />
+      <workItem from="1782037204660" duration="4716000" />
+      <workItem from="1782391296198" duration="12610000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -288,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777638055369</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="pro 4 part 2 final">
+      <option name="closed" value="true" />
+      <created>1778701052851</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1778701052851</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,10 +336,11 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MIW$Prograam.coverage" NAME="Prograam Coverage Results" MODIFIED="1775636031223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pro_1_Markov_Chains" />
     <SUITE FILE_PATH="coverage/MIW$Program_2.coverage" NAME="Program_2 Coverage Results" MODIFIED="1775637442601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pro_3_scikit-learn" />
+    <SUITE FILE_PATH="coverage/MIW$Prograam.coverage" NAME="Prograam Coverage Results" MODIFIED="1781462102496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pro_1_Markov_Chains" />
     <SUITE FILE_PATH="coverage/MIW$program_part2_2.coverage" NAME="program_part2_2 Coverage Results" MODIFIED="1777637952179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pro_4_NN" />
     <SUITE FILE_PATH="coverage/MIW$Program_1.coverage" NAME="Program_1 Coverage Results" MODIFIED="1775636396171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pro_3_scikit-learn" />
+    <SUITE FILE_PATH="coverage/MIW$solution.coverage" NAME="solution Coverage Results" MODIFIED="1781462652782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pro_6" />
     <SUITE FILE_PATH="coverage/MIW$program_part1.coverage" NAME="program_part1 Coverage Results" MODIFIED="1777470533244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pro_4_NN" />
     <SUITE FILE_PATH="coverage/MIW$program_part2_1.coverage" NAME="program_part2_1 Coverage Results" MODIFIED="1777637882228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pro_4_NN" />
     <SUITE FILE_PATH="coverage/MIW$Program.coverage" NAME="Program Coverage Results" MODIFIED="1774710493495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pro_2_Classification" />
